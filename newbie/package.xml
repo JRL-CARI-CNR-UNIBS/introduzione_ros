@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- il package.xml contiene informazioni sul pacchetto e le sue dipendenze, (si, è un po' un doppione di CMakeLists) -->
+
+<package format="2">
+  <name>newbie</name>
+  <version>0.0.1</version>
+  <description>The newbie package</description>
+
+  <maintainer email="manuel.beschi@unibs.it">Manuel Beschi</maintainer>
+  <license>BSD</license>
+
+  <!-- dipendenze di compilazione-->
+  <buildtool_depend>catkin</buildtool_depend>
+  <!-- dipendenze. vanno aggiunti pacchetti se serve-->
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+
+
+  <export>
+  </export>
+</package>
